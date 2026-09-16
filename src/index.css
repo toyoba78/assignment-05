@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @plugin "daisyui";
 
 :root {
@@ -21,4 +20,5 @@
 .brand-button {
   background: var(--brand-gradient);
   color: white;
+
 }

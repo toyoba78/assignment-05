@@ -112,6 +112,7 @@ const Footer = () => {
           </div>
         </div>
 
+
        
         <div className="my-7 border-t border-gray-100"></div>
 
