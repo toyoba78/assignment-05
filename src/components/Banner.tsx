@@ -1,6 +1,6 @@
 import banner from "../assets/banner-stack.png";
 
-const Hero = () => {
+const Banner = () => {
   return (
     <section className="bg-white">
       <div className="mx-auto flex max-w-7xl flex-col items-center px-6 py-10 lg:flex-row lg:justify-between">
@@ -11,9 +11,10 @@ const Hero = () => {
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
             Build Your Ideal
 
-            <h1 className="block bg-linear-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-                 Development Stack
-            </h1>
+             <span className="block brand-gradient">
+                Development Stack
+              </span>
+
           </h1>
 
           <p className="mx-auto mt-5 max-w-xl text-sm leading-6 text-gray-500 lg:mx-0">
@@ -25,9 +26,9 @@ const Hero = () => {
           
           <div className="mt-7 flex justify-center gap-4 lg:justify-start">
 
-            <button className="rounded-md bg-linear-to-r from-orange-500 to-pink-500 px-5 py-3 text-sm font-semibold text-white">
-              Explore Technologies
-            </button>
+            <button className="brand-button rounded-md px-5 py-3 text-sm font-semibold">
+               Explore Technologies
+             </button>
 
             <button className="rounded-md border border-gray-300 px-5 py-3 text-sm font-semibold text-gray-700">
               Learn More
@@ -46,4 +47,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Banner;
