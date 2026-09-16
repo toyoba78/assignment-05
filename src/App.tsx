@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Technologies from "./components/technologies/Technologies"
 import { Suspense } from "react";
 import type { Itechnologies } from "./types/technologies";
+import Footer from "./components/Footer";
 
 
 const technologiesFetch = async(): Promise<Itechnologies[]>=> {
@@ -26,7 +27,7 @@ function App() {
     <Technologies technologiesPromise={technologiesPromise}/> 
     </Suspense>
      
-    
+    <Footer />
 
     </>
   );
